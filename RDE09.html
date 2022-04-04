@@ -19,22 +19,27 @@
     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/555584253&color=%23121414&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/imaginedragons" title="Imagine Dragons" target="_blank" style="color: #cccccc; text-decoration: none;">Imagine Dragons</a> · <a href="https://soundcloud.com/imaginedragons/believer-feat-lil-wayne" title="Believer (feat. Lil Wayne)" target="_blank" style="color: #cccccc; text-decoration: none;">Believer (feat. Lil Wayne)</a></div>
 
     <h3>Incorporando vídeos</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4aeDlZOD-B0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/q5l-2R7E_48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <h3>Incoporando audio locoal</h3>
     <audio preload="metadata" controls>
-        <source src=" " type="audio/mp3">
+        <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
     </audio>
     <!--Caso o primeiro arquivo de audio não funcione, é necessário realizar outro source com mesmo audio, mas com formato diferente. Dessa forma ele irá executar o próximo arquivo-->
     <h3>Imcorporando vídeo local</h3>
-    <video poster="" controls> <!--inserir capa do vídeo-->
-        <source src=" " > <!--inserir arquivo de vídeo-->
+    <video poster="midias/video/Bike.jpg" controls> <!--inserir capa do vídeo-->
+        <source src="midias/video/_Bike.mp4" type="video/mp4" > <!--inserir arquivo de vídeo-->
         <!--O mesmo caso do audio serve para o vídeo quando arquivo falha-->
     </video>
     <h3>TAG Picure</h3>
     <picture>
-        <source media="(max-width:50px)" srcset="" > <!--scrset= caminho da imagem-->
-        <img src="" alt=""> <!--adiciona a imagem do modo normal-->
+        <source media="(max-width:50px)" srcset="midias/img/bike_full.jpg" > <!--scrset= caminho da imagem-->
+        <img src="midias/img/bike_110.jpg" alt="imagem de bicicleta"> <!--adiciona a imagem do modo normal-->
+
+    </picture>
+    <picture>
+        <source media="(max-width:150px)" srcset="midias/img/bike_640.jpg">
+        <img src="midias/img/bike_640.jpg" alt="imagem bicicleta">
 
     </picture>
 </body>
